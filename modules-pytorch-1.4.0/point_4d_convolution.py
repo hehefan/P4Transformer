@@ -25,7 +25,7 @@ class P4DConv(nn.Module):
                  temporal_stride: int = 1,
                  temporal_padding: [int, int] = [0, 0],
                  temporal_padding_mode: str = 'replicate',
-                 operator: str = 'addition',
+                 operator: str = '+',
                  spatial_pooling: str = 'max',
                  temporal_pooling: str = 'sum',
                  bias: bool = False):
