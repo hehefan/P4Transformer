@@ -16,8 +16,6 @@ cd modules
 python setup.py install
 ```
 
-More codes are coming soon...
-
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
