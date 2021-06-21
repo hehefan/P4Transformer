@@ -1,4 +1,4 @@
-# [Point 4D Transformer Networks for Spatio-Temporal Modeling in Point Cloud Videos](https://hehefan.github.io/pdfs/p4transformer.pdf)
+# [Point 4D Transformer Networks for Spatio-Temporal Modeling in Point Cloud Videos](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Point_4D_Transformer_Networks_for_Spatio-Temporal_Modeling_in_Point_Cloud_CVPR_2021_paper.pdf)
 ![](https://github.com/hehefan/P4Transformer/blob/main/imgs/framework.png)
 
 ## Introduction
