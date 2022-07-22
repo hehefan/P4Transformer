@@ -127,7 +127,7 @@ def main(args):
     dataset = MSRAction3D(
             root=args.data_path,
             frames_per_clip=args.clip_len,
-            step_between_clips=1,
+            frame_interval=args.frame_interval,
             num_points=args.num_points,
             train=True
     )
@@ -135,7 +135,7 @@ def main(args):
     dataset_test = MSRAction3D(
             root=args.data_path,
             frames_per_clip=args.clip_len,
-            step_between_clips=1,
+            frame_interval=args.frame_interval,
             num_points=args.num_points,
             train=False
     )
@@ -216,6 +216,7 @@ def parse_args():
     parser.add_argument('--model', default='P4Transformer', type=str, help='model')
     # input
     parser.add_argument('--clip-len', default=24, type=int, metavar='N', help='number of frames per clip')
+    parser.add_argument('--frame-interval', default=1, type=int, metavar='N', help='interval of sampled frames')
     parser.add_argument('--num-points', default=2048, type=int, metavar='N', help='number of points per frame')
     # P4D
     parser.add_argument('--radius', default=0.7, type=float, help='radius for the ball query')
