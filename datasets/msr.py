@@ -19,7 +19,7 @@ class MSRAction3D(Dataset):
                 self.labels.append(label)
 
                 nframes = video.shape[0]
-                for t in range(0, nframes-step_between_clips*(frames_per_clip-1), step_between_clips):
+                for t in range(0, nframes-step_between_clips*(frames_per_clip-1)):
                     self.index_map.append((index, t))
                 index += 1
 
@@ -30,7 +30,7 @@ class MSRAction3D(Dataset):
                 self.labels.append(label)
 
                 nframes = video.shape[0]
-                for t in range(0, nframes-step_between_clips*(frames_per_clip-1), step_between_clips):
+                for t in range(0, nframes-step_between_clips*(frames_per_clip-1)):
                     self.index_map.append((index, t))
                 index += 1
 
