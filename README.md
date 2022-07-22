@@ -37,3 +37,4 @@ If you find our work useful in your research, please consider citing:
 5. Transformer: https://github.com/lucidrains/vit-pytorch
 6. PointRNN (TensorFlow implementation): https://github.com/hehefan/PointRNN
 7. PointRNN (PyTorch implementation): https://github.com/hehefan/PointRNN-PyTorch
+8. Awesome Dynamic Point Cloud / Point Cloud Video / Point Cloud Sequence / 4D Point Cloud Analysis: https://github.com/hehefan/Awesome-Dynamic-Point-Cloud-Analysis
